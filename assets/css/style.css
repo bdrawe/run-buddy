@@ -451,7 +451,7 @@ section {
         grid-template-columns: 1fr 1fr;
     }
 
-    .service-grid-item {
+    .service-grid-item.basic {
         grid-column: 1;
     }
     .service-grid-item.both {

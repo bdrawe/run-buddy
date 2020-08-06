@@ -142,7 +142,7 @@ section {
     margin: 5px 0px 15px 0px;
 
 }
-.checkbox-wrapper input, .radio-wrapper input {
+.checkbox-wrapper input[type='checkbox'], .radio-wrapper input[type='radio'] {
     opacity: 0;
 }
 .checkbox-wrapper label, .radio-wrapper label {
@@ -164,7 +164,7 @@ section {
 .radio-wrapper label::before {
     border-radius: 50%;
 }
-.radio-wrapper label ::after {
+.radio-wrapper label::after {
     content:"";
     width: 20px;
     height: 20px;
